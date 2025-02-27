@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+  <title>Contador - Mayu!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="headerContent">
+        <h1 class="headerTitle">🎉 18 Anos da Mayumi! 🎉</h1>
+        <p class="headerSubtitle">Segue o contador ⏳</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="mainSection">
+        <p class="mainSectionText">
+          Prepare-se para celebrar este momento especial com muita alegria!
+        </p>
+        <div class="countdownContainer" id="countdownContainer">
+          <div class="countdownItem" id="days">
+            <p class="countdownValue" id="daysValue">00</p>
+            <p class="countdownLabel">dias</p>
+          </div>
+          <div class="countdownItem" id="hours">
+            <p class="countdownValue" id="hoursValue">00</p>
+            <p class="countdownLabel">horas</p>
+          </div>
+          <div class="countdownItem" id="minutes">
+            <p class="countdownValue" id="minutesValue">00</p>
+            <p class="countdownLabel">minutos</p>
+          </div>
+          <div class="countdownItem" id="seconds">
+            <p class="countdownValue" id="secondsValue">00</p>
+            <p class="countdownLabel">segundos</p>
+          </div>
+        </div>
+        <p class="currentTime" id="currentTime">Horário atual: 00:00:00</p>
+      </section>
+
+      <section class="gallerySection">
+        <h2 class="galleryTitle">
+          Galeria de Momentos Especiais
+        </h2>
+        <div class="galleryGrid">
+          <div class="galleryItem">
+            <img src="imgs/Captura de tela 2025-02-27 111331.png" alt="Preview Imagem 1" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="imgs/Captura de tela 2025-02-27 111415.png" alt="Preview Imagem 2" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="imgs/Captura de tela 2025-02-27 111437.png" alt="Preview Imagem 3" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="imgs/Captura de tela 2025-02-27 111526.png" alt="Preview Imagem 4" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="imgs/Captura de tela 2025-02-27 111554.png" alt="Preview Imagem 5" class="galleryImage">
+          </div>
+          <div class="galleryItem">
+            <img src="imgs/Captura de tela 2025-02-27 111626.png" alt="Preview Imagem 6" class="galleryImage">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footerContent">
+        <p>Desenvolvido com ❤️ para Mayumi</p>
+        <p>[talvez, para agendar o momento mais especial da vida do daniel rsrs]</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.7.0/dist/confetti.browser.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
